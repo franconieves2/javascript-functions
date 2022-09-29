@@ -16,7 +16,7 @@ const printCell = (cell, state) => {
   return contains.call(sate, cell) ? "\u25A3":
 "\u25A2";
 };
-
+ 
 const corners = (state = []) => {
   if (state.length === 0) { 
     return {
@@ -138,4 +138,5 @@ const startPatterns = {
   exports.printCells = printCells;
   exports.startPatterns = startPatterns;
   exports.iterate = iterate;
-  exports.main = main;
+  exports.main = main; 
+  //test
